@@ -1,3 +1,21 @@
 header{
-    background-color: rgb(240, 198, 135);
+    background-color: rgb(236, 192, 125);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4rem;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    align-items: center;
+}
+
+.estilosDeNav{
+    text-decoration: none;
+    color: brown;
+    font-size: medium;
 }

@@ -3,14 +3,21 @@ import "./NavBar.css"
 function NavBar() {
   return (
     <header>
-      <span className="nombre">Coffe Place</span>
-      <nav>
-          <a href='#'>INCIO</a>
 
-          <a href='#'>SERVICIOS</a>
+      <h1>Coffe Place</h1>
+
+      <nav>
+          <a href='#' className="estilosDeNav">INCIO</a>
+
+          <a href='#'className="estilosDeNav">SERVICIOS</a>
         
-          <a href='#'>CONTACTO</a>
+          <a href='#' className="estilosDeNav">CONTACTO</a>
       </nav>
+
+      <div>
+        carrito
+      </div>
+      
     </header>
   );
 }

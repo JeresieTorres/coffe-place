@@ -1,7 +1,6 @@
 import './App.css';
 import NavBar from './components/NavBar/NavBar';
 
-
 function App() {
   return (
     <>
@@ -11,3 +10,6 @@ function App() {
 }
 
 export default App;
+
+/* class = claseName 
+<input type="text" /> */
