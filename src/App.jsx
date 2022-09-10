@@ -10,6 +10,3 @@ function App() {
 }
 
 export default App;
-
-/* class = claseName 
-<input type="text" /> */
